@@ -1,0 +1,289 @@
+
+/* --- CONSTANTS --- */
+:root {
+    --color-primary: #99BDB2;
+    --color-primary-light: #F2FFEC;
+    --color-primary-dark: #6E7962;
+    --color-secondary: #325741;
+    --color-secondary-dark: #103321;
+    --color-text: #000000;
+    --color-text-light: #FFFFFF;
+}
+
+/* --- BACKGROUND --- */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-primary-light);
+}
+
+
+/* --- APPBAR --- */
+
+.app-bar {
+    /* - Text configuration - */
+    background-color: var(--color-primary-dark);
+    color: var(--color-text-light);
+
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: space-between;
+
+    /* - Container configuration - */
+    width: 700px;
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    padding: 10px;
+    margin-top: 20px;
+
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 800px) {
+    /* Delete appbar when screen size < 600px */
+    .app-bar {
+        display: none;
+    }
+}
+
+.app-bar-item {
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.app-bar-item a {
+    text-decoration: none;
+    color: var(--color-text-light);
+}
+
+/* --- ICONS --- */
+
+.icon {
+    width: 28px;
+    height: 28px;
+}
+
+/* --- FOOTER --- */
+
+footer {
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+}
+
+/* --- DIVIDER --- */
+
+.divider {
+    width: 85%;
+    height: 2px;
+    background-color: #000;
+    margin: 75px auto 0;
+}
+
+.title {
+    margin-top: 75px;
+    margin-left: 150px;
+}
+
+/* --- TEXT SETTINGS --- */
+
+h1 {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 200px;
+    margin: 0px;
+}
+
+h2 {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 96px;
+    margin: 0px;
+}
+
+h3 {
+    font-family: 'Hind', sans-serif;
+    font-size: 64px;
+    margin: 0px;
+}
+
+h4 {
+    font-family: 'Dancing Script', sans-serif;
+    font-size: 60px;
+    margin: 0px;
+}
+
+h5 {
+    font-family: 'Hind', sans-serif;
+    font-size: 48px;
+    text-align: center;
+    margin: 0px;
+}
+
+h6 {
+    font-family: 'Signika', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin: 0px;
+}
+
+p {
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -5px;
+    margin-bottom: 0px;
+}
+
+.pList {
+    font-family: 'Signika', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0px;
+}
+
+
+/* --- PRESENTATION --- */
+
+.presentationText {
+    width: 540px;
+    padding: 10px
+}
+
+.profileImg {
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.presentation {
+    margin-top: 140px;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    gap: 100px;
+}
+
+
+/* --- ABOUT ME --- */
+
+.aboutMe {
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.boxes {
+    margin-top: 50px;
+    justify-content: space-around;
+    flex-direction: row;
+    display: flex;
+}
+
+.itemBox {
+    background-color: var(--color-primary);
+    width: 340px;
+    border-radius: 35px;
+    text-align: justify;
+    justify-content: center;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* --- PROJECT --- */
+
+.projectItem {
+    border-radius: 30px;
+    margin-top: 75px;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.projectText {
+    width: 350px;
+    height: 115px;
+    background-color: var(--color-primary);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+}
+
+.projectImg {
+    width: 200px;
+    height: 115px;
+    background-color: rgb(0, 0, 0, 0.1);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    text-align: center;
+}
+
+.projectImg img {
+    width: 95%;
+    height: 95%;
+    justify-content: center;
+}
+
+.projectBoxes {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    gap: 100px;
+}
+
+.project {
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+
+/* --- ACCOMPLISHMENT --- */
+
+.accomplishmentImg {
+    width: 268px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 30px 35px;
+}
+
+.accomplishment {
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+/* --- TECHNOLOGIES --- */
+
+.divTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.technologiesTable {
+    border-collapse: collapse;
+    margin-top: 60px;
+    align-content: center;
+}
+
+.technologiesTable th {
+    border: 5px solid var(--color-primary-dark);
+    width: 300px;
+}
+
+.technologiesTable td {
+    border: 5px solid var(--color-primary-dark);
+}
+
+.technologies {
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
