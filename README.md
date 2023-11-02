@@ -7,11 +7,11 @@ This web page is aimed mainly at employers who work in the branch of programming
 
 ### Information architecture
 Regarding the organization of the contents, I have tried to divide the information into sections, columns and rows to facilitate navigation on the web. I have tried to follow an order when placing the information so that there is consistency when reading. So, we find the following sections:
-	- Presentation: short description of what I like and a photo of me  
-	- About me: description of who I am, my knowledge and the different jobs in which I have worked  
-	- Projects: some of the projects I have developed that have allowed me to get here  
-	- Accomplishments: different prizes that I have obtained thanks to my projects  
-	- Technologies: the different programming languages ​​I know  
+	- **Presentation**: short description of what I like and a photo of me  
+	- **About me**: description of who I am, my knowledge and the different jobs in which I have worked  
+	- **Projects**: some of the projects I have developed that have allowed me to get here  
+	- **Accomplishments**: different prizes that I have obtained thanks to my projects  
+	- **Technologies**: the different programming languages ​​I know  
 Thanks to the appbar, usability is simplified as it is easier to find the sections. So, I think that with this structure it is easy to follow my steps in the field of programming.
 
 ### Visual design
